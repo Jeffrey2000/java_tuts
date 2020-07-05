@@ -1,25 +1,53 @@
+import java.lang.reflect.Array;
+
 public class mainProgram {
     public static void main(String[] args){
-        //Gaining Basic understanding of method overloading
-        System.out.println(calcFeetAndInchesToCentimeters(6,2));
-    };
+        //Switch statements are especially useful for checking the changing values of a single variable
 
-    public static double calcFeetAndInchesToCentimeters(int feet, int inches){
-        if(feet >=0 && (inches >=0 && inches <=12)){
-            inches+= feet * 12;
-            double centimeters = inches * 2.54;
-            return centimeters;
+        printDayOfTheWeek(0);
+        altDays(1);
+    }
+
+    private static void printDayOfTheWeek(int day){
+        String outstring;
+        switch (day){
+            case 0:
+                outstring = "Monday";
+                break;
+            case 1:
+                outstring =  "Tuesday";
+                break;
+            case 2:
+                outstring ="Wednesday";
+                break;
+            case 3:
+                outstring="Thursday";
+                break;
+            case 4:
+                outstring= "Friday";
+                break;
+            case 5:
+                outstring = "Saturday";
+                break;
+            case 6:
+                outstring = "Sunday";
+                break;
+            default:
+                outstring = "Invalid day";
         }
-        return -1;
+
+        System.out.println(outstring);
+    }
+
+    //Alternative solution without switch case, using the selection model
+    private static String[] daysArray = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday", "Sunday"};
+
+    private static void altDays(int thisday){
+        String outstring;
+        outstring = daysArray[thisday];
+        System.out.println(outstring);
     }
 
 
-    public static double calcFeetAndInchesToCentimeters(int inches){
-        if (inches >= 0){
-            int remInches = inches % 12;
-            int feet = (inches  - remInches) / 12;
-            return calcFeetAndInchesToCentimeters(feet, remInches);
-        }
-        return -1;
-    }
+
 }
