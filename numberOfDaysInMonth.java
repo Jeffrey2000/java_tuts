@@ -1,11 +1,5 @@
-public class LeapYear {
-    public static boolean isLeapYear(int year){
-        //Intellij simplified my original code into just returning the boolean expression
-        return (year % 4 == 0 && !(year % 100 == 0) || year % 100 == 0 && year % 400 == 0) && year >= 1 && year <= 9999;
-    }
-    // 30 has sep, april, june and nov
-    // jan, march, may,july, aug,oct,dec 31
-    //feb 28 or 29 on leap year
+public class numberOfDaysInMonth extends LeapYear{
+    //Using inheritance I can avoid duplicate code
     public int getDaysInMonth(int month, int year){
         if ( (1 > month || month > 12) || (1 > year || year > 9999) ){
             return -1;
