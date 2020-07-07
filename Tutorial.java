@@ -2,8 +2,10 @@
 public class Tutorial {
 	
 	public static void main(String[] args) {
-		//Just checking my answer
-		SumOddRange s = new SumOddRange();
-		System.out.println(s.sumOdd(1, 100));
+		System.out.println(isEvenNumber(1));
+	}
+	
+	public static boolean isEvenNumber(int number) {
+		return (number % 2 ==0);
 	}
 }
