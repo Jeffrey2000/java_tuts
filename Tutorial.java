@@ -2,9 +2,8 @@
 public class Tutorial {
 	
 	public static void main(String[] args) {
-		FirstLastDigitSum f = new FirstLastDigitSum();
-		f.sumFirstAndLastDigit(125);
-		
+		SharedDigit s = new SharedDigit();
+		System.out.println(s.hasSharedDigit(12,13));
 	}
 	
 	
