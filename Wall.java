@@ -33,4 +33,7 @@ public class Wall {
 	public double getArea() {
 		return this.getHeight() * this.getWidth();
 	}
+
 }
+
+
