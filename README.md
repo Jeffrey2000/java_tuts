@@ -1,4 +1,4 @@
-#Java Programming Masterclass
+# Java Programming Masterclass
 
 [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) by Tim Buchalka on Udemy; while concurrently studying Algorithms and Data Structures, and familiarising myself further with Java by reading Head First Java 2e.
 
