@@ -1,5 +1,7 @@
-#Java Programming Masterclass by Tim Buchalka
-Just going though the Java series which covers topics such as 
+[Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) by Tim Buchalka on Udemy; while concurrently studying Algorithms and Data Structures, and familiarising myself further with Java by reading Head First Java 2e.
+
+This series overs topics such as:
+
 * Expressions, Statement and Code Blocks
 * Control Flow Statements
 * Object Oriented Programming
