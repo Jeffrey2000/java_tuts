@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Java Programming Masterclass by Tim Buchalka
 Just going though the Java series which covers topics such as 
 * Expressions, Statement and Code Blocks
@@ -19,4 +19,4 @@ Just going though the Java series which covers topics such as
 =======
 # Java Tutorial Exercises
 Programming exercises from Java tutorials along with driver code
->>>>>>> 74e8731ea296bbd1956cff2509dacf0441cd4c1b
+
