@@ -1,5 +1,5 @@
 
-#Java Programming Masterclass by Tim Buchalka
+# Java Programming Masterclass by Tim Buchalka
 Just going though the Java series which covers topics such as 
 * Expressions, Statement and Code Blocks
 * Control Flow Statements
