@@ -16,7 +16,5 @@ Just going though the Java series which covers topics such as
 * Java Networking Programming
 * Java 9 Module System
 * Migrating Projects to Java 9
-=======
-# Java Tutorial Exercises
-Programming exercises from Java tutorials along with driver code
+
 
